@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.Salubrity.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@id/homeConstraint"/>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.Salubrity.ui.dashboard.Exercise"
+        android:label="@string/Exercise"
+        tools:layout="@layout/fragment_exercise">
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.Salubrity.ui.notifications.Food"
+        android:label="@string/Food"
+        tools:layout="@layout/fragment_food">
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_mental"
+        android:name="com.example.Salubrity.MentalQuestionnaire.MentalQuestionnaire"
+        android:label="@string/questionnaire"
+        tools:layout="@layout/mental_questionnaire" >
+        <action
+            android:id="@+id/action_questionnaire_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.Salubrity.LoginActivity"
+        android:label="LoginActivity" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.Salubrity.RegisterActivity"
+        android:label="RegisterActivity" />
+    <activity
+        android:id="@+id/titleActivity"
+        android:name="com.example.Salubrity.TitleActivity"
+        android:label="activity_title"
+        tools:layout="@layout/activity_title" />
+</navigation>

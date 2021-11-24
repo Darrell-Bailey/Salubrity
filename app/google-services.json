@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451913775816",
+    "project_id": "salubritytest",
+    "storage_bucket": "salubritytest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451913775816:android:a1bdfe1365fdfebf6e43fd",
+        "android_client_info": {
+          "package_name": "com.example.salubtest2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451913775816-2v1qdp2v6a9l07s7vhj0sfkb8jv3ea09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ_nom2cPfny5Oh3Q7ETxiNkVhEqFOEIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451913775816-2v1qdp2v6a9l07s7vhj0sfkb8jv3ea09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

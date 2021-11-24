@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Questions">
+        <item>Your overall performance throughout the day satisfied you.</item>
+        <item>The general level of happiness felt throughout the day was low.</item>
+        <item>You communicated well with your peers.</item>
+        <item>Anxiety levels were high throughout the day.</item>
+        <item>I did not feel very energized today.</item>
+    </string-array>
+</resources>
